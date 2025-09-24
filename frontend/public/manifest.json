@@ -1,0 +1,26 @@
+{
+  "short_name": "Confidential Dice Game",
+  "name": "Confidential Dice Game - FHEVM Tutorial",
+  "description": "A privacy-focused dice game built with Zama FHEVM technology",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#0a0a0a",
+  "orientation": "portrait",
+  "categories": ["games", "finance", "utilities"],
+  "lang": "en"
+}
