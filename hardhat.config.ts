@@ -15,7 +15,7 @@ import "./tasks/FHEDiceGame";
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 
 const MNEMONIC: string = vars.get("MNEMONIC", "test test test test test test test test test test test junk");
-const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "3376a33c419a4d249d680fa54ff8b6bf");
+const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "");
 
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
@@ -24,7 +24,7 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: {
-      sepolia: process.env.ETHERSCAN_API_KEY || "U42S46F9HAIY1NV5U2P186USKB6N89KEQP",
+      sepolia: process.env.ETHERSCAN_API_KEY || "",
     },
     customChains: [
       {
