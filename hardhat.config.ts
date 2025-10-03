@@ -14,7 +14,7 @@ import "./tasks/FHEDiceGame";
 
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 
-const MNEMONIC: string = vars.get("MNEMONIC", "zzzzzz");
+const MNEMONIC: string = vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "3376a33c419a4d249d680fa54ff8b6bf");
 
 const config: HardhatUserConfig = {
